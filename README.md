@@ -28,3 +28,12 @@ A lightweight Windows utility that protects USB flash drives by enabling or disa
 1. Download `USB-Toggle.exe` from the [Releases](../../releases) page
 2. Run the executable (will request admin privileges automatically)
 3. Select your USB drive and toggle protection as needed
+
+## Convert to EXE (stand alone)
+
+0. Open Powershell as Administrator
+1. Install-Module ps2exe -Scope CurrentUser
+2. Invoke-PS2EXE "Make Read-Only.ps1" "USB-Toggle.exe" -noConsole -requireAdmin -title "USB Read-Only Toggle (2025)"
+
+
+
