@@ -40,14 +40,14 @@ A lightweight Windows utility that protects USB flash drives by enabling or disa
 Since the old method was not reliable and didn't work for removable drives, please use this second method instead.
 
 **Requirements:**
-* The flash drive or drive **must be formatted to NTFS** for this to work.
+* The flash drive or external hard disk **must be formatted to NTFS** for this to work.
 
 **Files Needed:**
 * `Click to Open.bat` (The launcher)
 * `Read.Only.[NTFS].ps1` (The script)
 
 **How to use:**
-1. Locate the files in the repository.
+1. Locate the files in the repository and download as ZIP file
 2. Run **`Click to Open.bat`**. This file acts as the launcher for the PowerShell script and will handle the necessary permissions automatically.
 
 ---
